@@ -1,0 +1,8 @@
+System.Console.WriteLine(" Введите числа");
+int c = Convert.ToInt32(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
+int max =c;
+if (c > max) max =c;
+if (b > max) max =b;
+Console.Write("max");
+Console.WriteLine(max);
